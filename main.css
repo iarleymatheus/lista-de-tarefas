@@ -1,28 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&display=swap');
+
+body{
+      background-color: #f8ecc2;
+      
+}
+.frases{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 4rem;
+    padding-top: 20px;
+    color:#f8ecc2;
+    text-align: center;
+    
+}
+
+  
+.container{
+    
+    display: block;
+    background-color:#65a8a4 ;
+    width: 40%;
+    padding-bottom: 60px;
+    border-style: groove;
+    border-radius: 20px;
+    margin:auto;
+    box-shadow: 2px 2px 2px 2px #f8ecc2 ;  
+}
+li{
+      list-style-type: none;
+      list-style: square;
+      color:#f8ecc2;
+      text-align: center;
+      list-style-type: none;
+     
+
+}
+#add{
+text-align: center;
+border-radius: 10px;
+border-color: #eed373;
+width: 340px;
+padding: 10px;
+background-color:  #f8ecc2 ;  
 
 
 
+}
+.add-elements{
+  text-align: center;
 
 
+}
+#titulo{
 
+    font-size: 3rem;
+    font-style: oblique;
+    font-weight:500;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
 .checked{
     text-decoration: line-through;
-    background-color: #e0e0e0;
+    background-color: #65a8a4;
 }
+
