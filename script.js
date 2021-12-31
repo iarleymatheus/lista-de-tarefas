@@ -2,8 +2,9 @@ const input = document.querySelector("#add");
 const btn = document.querySelector("#btn");
 const list = document.querySelector("#list");
 const btnDel = document.querySelector("#btnDel")
-var el = document.getElementById('li');
-var apagarIndividual = document.getElementById('#btnapagar')
+
+
+
 
 
 btn.onclick = function () {
@@ -13,13 +14,13 @@ btn.onclick = function () {
   }
   else {
     li = document.createElement('li');
-    li.innerHTML =txt;
+    li.innerHTML = txt;
     list.insertBefore(li, list.childNodes[0]);
     input.value = '';
     
-  }
+  
 };
-
+}
 
 list.onclick = function (ev) {
   if (ev.target.tagName == 'LI') {
@@ -30,4 +31,5 @@ list.onclick = function (ev) {
 
 function apagarTudo() {
   list.innerHTML = "";
+  localStorage.clear()
 }

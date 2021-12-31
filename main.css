@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital@1&display=swap');
 
 body{
       background-color: #f8ecc2;
       
 }
 .frases{
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Livvic', sans-serif;
+    font-style: bold;
     font-size: 4rem;
     padding-top: 20px;
     color:#f8ecc2;
@@ -26,8 +27,8 @@ body{
     box-shadow: 2px 2px 2px 2px #f8ecc2 ;  
 }
 li{
-      list-style-type: none;
-      list-style: square;
+      font-family: 'Schoolbell', cursive;
+      list-style-type:square;
       color:#f8ecc2;
       text-align: center;
       list-style-type: none;
@@ -41,6 +42,7 @@ border-color: #eed373;
 width: 340px;
 padding: 10px;
 background-color:  #f8ecc2 ;  
+height: 35px;
 
 
 
@@ -65,3 +67,19 @@ background-color:  #f8ecc2 ;
     background-color: #65a8a4;
 }
 
+#btnDel{
+  border: none;
+  background-color:#65a8a4 ;
+
+}
+#btn{
+    border: none;
+  background-color:#65a8a4 ;
+  
+}
+.botoes:active{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+
+}
