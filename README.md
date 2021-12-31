@@ -1,2 +1,3 @@
 # lista-de-tarefas
-Lista de tarefas, em HTML/CSS/JS. Com comentários!
+Lista de tarefas, em HTML/CSS/JS. !
+Em constante aprendizado!!
